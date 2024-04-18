@@ -81,8 +81,8 @@ class canSnifferGUI(QMainWindow, canSniffer_ui.Ui_MainWindow):
         self.playbackMainTableIndex = 0
         self.labelDictFile = None
         self.idDict = dict([])
-        self.showOnlyIdsSet = set([])
-        self.hideIdsSet = set([])
+        self.showOnlyIdsSet = set()
+        self.hideIdsSet = set()
         self.idLabelDict = dict()
         self.isInited = False
         self.init()
